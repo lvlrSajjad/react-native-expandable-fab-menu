@@ -229,6 +229,7 @@ export function openFab() {
                 {
                     toValue: 1,
                     duration: 500,
+                    useNativeDriver: true
                 }
             ),
             Animated.timing(
@@ -236,6 +237,7 @@ export function openFab() {
                 {
                     toValue: 0,
                     duration: 300,
+                    useNativeDriver: true
                 }
             ),
             Animated.timing(
@@ -243,6 +245,7 @@ export function openFab() {
                 {
                     toValue: 0,
                     duration: 300,
+                    useNativeDriver: true
                 }
             ),
             Animated.timing(
@@ -250,6 +253,7 @@ export function openFab() {
                 {
                     toValue: 0,
                     duration: 300,
+                    useNativeDriver: true
                 }
             ),
             Animated.timing(
@@ -257,6 +261,7 @@ export function openFab() {
                 {
                     toValue: 0,
                     duration: 300,
+                    useNativeDriver: true
                 }
             )
         ]).start();
@@ -273,6 +278,7 @@ export function closeFab() {
             {
                 toValue: 0,
                 duration: 500,
+                useNativeDriver: true
             }
         ),
         Animated.timing(
@@ -280,6 +286,7 @@ export function closeFab() {
             {
                 toValue: 40,
                 duration: 300,
+                useNativeDriver: true
             }
         ),
         Animated.timing(
@@ -287,6 +294,7 @@ export function closeFab() {
             {
                 toValue: -40,
                 duration: 300,
+                useNativeDriver: true
             }
         ),
         Animated.timing(
@@ -294,6 +302,7 @@ export function closeFab() {
             {
                 toValue: 80,
                 duration: 300,
+                useNativeDriver: true
             }
         ),
         Animated.timing(
@@ -301,6 +310,7 @@ export function closeFab() {
             {
                 toValue: -80,
                 duration: 300,
+                useNativeDriver: true
             }
         )
     ]).start(() => this.setState({open: false}));

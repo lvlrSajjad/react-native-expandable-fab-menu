@@ -18,7 +18,7 @@
 ```javascript
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, TouchableOpacity, Image} from 'react-native';
-import {ExpandableFabMenu} from './ExpandableFab';
+import {ExpandableFabMenu} from 'react-native-expandable-fab-menu';
 
 
 type Props = {};
